@@ -85,7 +85,7 @@ int cola_vacia(Nodo *frente)
 }
 
 /*Funcion para la busqueda de amplitud*/
-void bda(char arr[], int n) {
+void bfs(char arr[], int n) {
     char temp[MAX_SIZE];
     Nodo *frente = NULL;
     Nodo *atras = NULL;
@@ -131,6 +131,6 @@ int main()
     printf("Ingrese los caracteres a ordenar: ");
     scanf("%s", arr);
     int n = strlen(arr);
-    bda(arr, n);
+    bfs(arr, n);
     return 0;
 }
