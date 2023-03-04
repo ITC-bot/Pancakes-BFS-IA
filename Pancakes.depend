@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1677528521 source:c:\users\user\desktop\pancakes v3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1677881168 source:d:\6to semestre\inteligencia artificial i\pancakes v2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
